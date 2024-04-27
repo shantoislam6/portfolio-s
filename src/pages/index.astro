@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro';
+import TracingBeamDemo from './components/_TracingBeamDemo'
+import FloatingNavDemo from './components/_FloatingNavDemo'
+import LayoutGridDemo from './components/_LayoutGridDemo';
+import BentoGridOneDemo from './components/_BentoGridOneDemo'
+import SpotlightDemo from './components/_SpotlightDemo'
+import BentoGridTwoDemo from './components/_BentoGridTwoDemo'
+import TabsDemo from './components/_TabsDemo'
+import ButtonsDemo from './components/_ButtonsDemo'
+import SignupFormDemo from './components/_SignupFormDemo'
+import InfiniteMovingCardsDemo from './components/_InfiniteMovingCardsDemo'
+---
+
+<Layout title="Welcome to Astro.">
+	
+	<FloatingNavDemo client:load />
+	<SpotlightDemo  client:load />
+	<LayoutGridDemo client:load />
+	<TracingBeamDemo client:load />
+	<BentoGridOneDemo client:load />
+	<BentoGridTwoDemo client:load />
+	<InfiniteMovingCardsDemo client:load />
+	<TabsDemo client:load />
+	<ButtonsDemo client:load />
+	<SignupFormDemo client:load />
+
+	<footer class="py-5 text-center my-10" >
+			<p>Aceternity UI</p>
+	</footer>
+</Layout>
